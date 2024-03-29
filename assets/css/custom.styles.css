@@ -1,0 +1,40 @@
+.red {
+    color: #c00000;
+}
+
+.ash {
+    color: #ebebeb;
+}
+
+.white {
+    color: #ffffff;
+}
+
+/* NAV */
+
+.nav-logo {
+    font-size: 90%;
+	font-weight: bolder;
+	font-family: 'Dancing Script', cursive;
+}
+
+.arewa-logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HOME SLIDER */
+
+.single-slider {
+    background-color: #e6e6e6;
+}
+
+.single-slider[data-background] {
+    background-size: contain;
+    background-position: right;
+}
+
+/* SCROLLER */
+
+.scroll-up {
+    color: #c00000;
+}

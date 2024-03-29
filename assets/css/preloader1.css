@@ -1,0 +1,160 @@
+#loading{
+	background-color: #ebebeb;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 999999;
+	margin-top: 0px;
+	top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-landing-heading {
+	font-size: 140%;
+	font-weight: bolder;
+	font-family: 'Dancing Script', cursive;
+}
+
+.arewa {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* .cart__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cart__icon__lines {
+  stroke: #121a22;
+}
+
+.cart__icon__track {
+  stroke: #0070FF;
+}
+
+.preloader {
+	text-align: center;
+	width: 100%;
+}
+
+.preloader__text {
+  margin-top: -40px;
+  margin-bottom: 40px;
+	height: 1.5em;
+}
+
+.preloader__msg {
+	animation: msg 0.3s 13.7s linear forwards;
+	position: absolute;
+	width: 100%;
+}
+
+.preloader__msg--last {
+	animation-direction: reverse;
+	animation-delay: 14s;
+	visibility: hidden;
+}
+
+.cart__lines,
+.cart__top,
+.cart__wheel1,
+.cart__wheel2,
+.cart__wheel-stroke {
+	animation: cartLines 2s ease-in-out infinite;
+}
+
+.cart__top {
+	animation-name: cartTop;
+}
+
+.cart__wheel1 {
+	animation-name: cartWheel1;
+	transform: rotate(-0.25turn);
+	transform-origin: 43px 111px;
+}
+
+.cart__wheel2 {
+	animation-name: cartWheel2;
+	transform: rotate(0.25turn);
+	transform-origin: 102px 111px;
+}
+
+.cart__wheel-stroke {
+	animation-name: cartWheelStroke
+}
+
+@keyframes msg {
+	from {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	99.9% {
+		opacity: 0;
+		visibility: visible;
+	}
+
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+@keyframes cartLines {
+	from,
+	to {
+		opacity: 0;
+	}
+
+	8%,
+	92% {
+		opacity: 1;
+	}
+}
+
+@keyframes cartTop {
+	from {
+		stroke-dashoffset: -338;
+	}
+
+	50% {
+		stroke-dashoffset: 0;
+	}
+
+	to {
+		stroke-dashoffset: 338;
+	}
+}
+
+@keyframes cartWheel1 {
+	from {
+		transform: rotate(-0.25turn);
+	}
+
+	to {
+		transform: rotate(2.75turn);
+	}
+}
+@keyframes cartWheel2 {
+	from {
+		transform: rotate(0.25turn);
+	}
+
+	to {
+		transform: rotate(3.25turn);
+	}
+}
+
+@keyframes cartWheelStroke {
+	from,
+	to {
+		stroke-dashoffset: 81.68;
+	}
+	50% {
+		stroke-dashoffset: 40.84;
+	}
+}
