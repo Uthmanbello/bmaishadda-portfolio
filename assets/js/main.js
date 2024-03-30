@@ -122,7 +122,7 @@
 		}
 	});
 
-	//Animate the scroll to yop
+	//Animate the scroll to top
 	$('#scroll').on('click', function(event) {
 		event.preventDefault();
 
