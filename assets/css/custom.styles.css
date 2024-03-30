@@ -22,19 +22,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-heading {
+	font-size: 80%;
+	font-weight: bolder;
+	font-family: 'Dancing Script', cursive;
+}
+
 /* HOME SLIDER */
 
 .single-slider {
-    background-color: #e6e6e6;
+    background-color: #ebebeb;
 }
 
 .single-slider[data-background] {
     background-size: contain;
     background-position: right;
-}
-
-/* SCROLLER */
-
-.scroll-up {
-    color: #c00000;
 }
