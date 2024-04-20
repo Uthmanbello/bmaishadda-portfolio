@@ -2089,8 +2089,7 @@ p {
   padding-right: 0;
 }
 .banner__item .banner__thumb img {
-  height: 40vh;
-  margin-left: 20%;
+  height: 30vh;
 }
 .banner__item-2:hover .banner__thumb img {
   -webkit-transform: scale(1.1);
