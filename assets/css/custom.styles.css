@@ -10,6 +10,50 @@
     color: #ffffff;
 }
 
+.bold {
+    font-weight: 900;
+  }
+  
+  .caps {
+    text-transform: uppercase;
+  }
+
+  .strike-through {
+    text-decoration: line-through;
+  }
+
+  .size1 {
+    font-size: 180%;
+  }
+
+  .size2 {
+    font-size: 160%;
+  }
+
+  .size3 {
+    font-size: 140%;
+  }
+
+  .size4 {
+    font-size: 120%;
+  }
+
+  .size5 {
+    font-size: 80%;
+  }
+
+  .size6 {
+    font-size: 60%;
+  }
+
+  .display-off {
+    display: none;
+  }
+
+  .display-on {
+    display: block;
+  }
+
 /* NAV */
 
 .nav-logo {
@@ -23,7 +67,7 @@
 }
 
 .nav-heading {
-	font-size: 80%;
+	/* font-size: 10%; */
 	font-weight: bolder;
 	font-family: 'Dancing Script', cursive;
 }
