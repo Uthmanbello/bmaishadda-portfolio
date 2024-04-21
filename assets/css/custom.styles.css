@@ -10,6 +10,10 @@
     color: #ffffff;
 }
 
+.black {
+    color: #000000 !important;
+}
+
 .bold {
     font-weight: 900;
   }
