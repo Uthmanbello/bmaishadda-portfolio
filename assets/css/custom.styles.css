@@ -98,9 +98,10 @@
 }
 
 .background-ash {
-    background-color: #ebebeb7e;
+    background-color: #ebebebb9;
     padding: 10px;
-    max-width: 70%;
+    width: 60%;
+    max-width: 60%;
 }
 
 .background-ash1 {

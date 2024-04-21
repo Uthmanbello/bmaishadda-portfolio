@@ -31,7 +31,7 @@ const customerContactForm = document.querySelector('#contact-form');
       createdAt: firebase.firestore.FieldValue.serverTimestamp()
     }).then(() => {
         customerContactForm.reset();
-        customerContactForm.querySelector('.error').innerHTML = 'Message sent. Admin will be in touch.';
+        customerContactForm.querySelector('.error').innerHTML = 'Thanks for your message. We will be in touch.';
     }).catch(err => {
         customerContactForm.querySelector('.error').innerHTML = err.message;
     });
