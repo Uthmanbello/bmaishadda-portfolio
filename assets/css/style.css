@@ -4906,8 +4906,8 @@ p.checkout-coupon input[type=text] {
   transform: scale(0.7);
   display: inline-block;
   text-align: center;
-  width: 8vw;
-  height: 8vw;
+  width: 10vw;
+  height: 10vw;
 }
 .testimonial__nav-thumb.slick-center img {
   -webkit-transform: scale(1);
@@ -5953,7 +5953,18 @@ p.checkout-coupon input[type=text] {
 
 @media only screen and (max-width: 1024px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+  }
+
+  .testimonial__nav-thumb img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .footer__widget-title img {
+    max-width: 35vw;
+    margin-top: -60px;
   }
 }
 /*# sourceMappingURL=style.css.map */
