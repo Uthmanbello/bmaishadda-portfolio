@@ -117,6 +117,11 @@
     width: 100vw;
 }
 
+#contact-message {
+    text-align: center;
+    padding: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
     .mob-none {
         display: none;
