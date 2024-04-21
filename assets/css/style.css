@@ -4217,7 +4217,7 @@ p.checkout-coupon input[type=text] {
 /*  06. CLIENT CSS START
 /*----------------------------------------*/
 .client__thumb img {
-  width: inherit !important;
+  width: 10%;
 }
 
 /*----------------------------------------*/
