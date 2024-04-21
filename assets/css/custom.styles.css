@@ -99,6 +99,12 @@
     max-width: 70%;
 }
 
+.background-ash1 {
+    background-color: #ebebeb7e;
+    padding: 10px;
+    max-width: 100%;
+}
+
 .experience-btn {
     background-color: #ebebeb;
 }

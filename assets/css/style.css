@@ -1999,6 +1999,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-slider {
