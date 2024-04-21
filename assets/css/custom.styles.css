@@ -113,6 +113,10 @@
     background-color: #ebebeb;
 }
 
+.services-section {
+    width: 100vw;
+}
+
 @media only screen and (max-width: 1024px) {
     .mob-none {
         display: none;
