@@ -89,5 +89,16 @@
     height: 100%;
     margin-left: -30px;
     margin-top: -50px;
-    padding: 30px;
+    padding: 20px;
+    width: 200px;
+}
+
+.background-ash {
+    background-color: #ebebeb7e;
+    padding: 10px;
+    max-width: 70%;
+}
+
+.experience-btn {
+    background-color: #ebebeb;
 }

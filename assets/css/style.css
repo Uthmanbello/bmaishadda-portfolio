@@ -5950,4 +5950,9 @@ p.checkout-coupon input[type=text] {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 /*# sourceMappingURL=style.css.map */
