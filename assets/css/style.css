@@ -1998,6 +1998,7 @@ p {
 }
 
 .single-slider {
+  background-image: url('../img/yard19.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2005,17 +2006,17 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-slider {
-    background-position: left;
+    /* background-position: left; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .single-slider {
-    background-position: left;
+    /* background-position: left; */
   }
 }
 @media (max-width: 575px) {
   .single-slider {
-    background-position: left;
+    /* background-position: left; */
   }
 }
 
