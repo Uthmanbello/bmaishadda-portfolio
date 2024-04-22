@@ -151,5 +151,23 @@
     .mob-none {
         display: none;
     }
+
+    .downlaod-app {
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        width: 100%;
+        gap: 20%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .download-area {
+        width: 80%;
+    }
+    
   }
   
