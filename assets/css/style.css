@@ -2005,17 +2005,17 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-slider {
-    background-position: left;
+    /* background-position: left; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .single-slider {
-    background-position: left;
+    /* background-position: left; */
   }
 }
 @media (max-width: 575px) {
   .single-slider {
-    background-position: left;
+    /* background-position: left; */
   }
 }
 
@@ -2918,6 +2918,7 @@ p {
   position: relative;
   margin-bottom: 15px;
   overflow: hidden;
+  height: 200px;
 }
 .product__thumb-2 {
   position: absolute;
@@ -4218,6 +4219,13 @@ p.checkout-coupon input[type=text] {
 /*----------------------------------------*/
 /*  06. CLIENT CSS START
 /*----------------------------------------*/
+.client__thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
 .client__thumb img {
   width: 10%;
 }
@@ -4908,8 +4916,8 @@ p.checkout-coupon input[type=text] {
   transform: scale(0.7);
   display: inline-block;
   text-align: center;
-  width: 10vw;
-  height: 10vw;
+  width: 7vw;
+  height: 7vw;
 }
 .testimonial__nav-thumb.slick-center img {
   -webkit-transform: scale(1);
@@ -5957,6 +5965,10 @@ p.checkout-coupon input[type=text] {
   body {
     overflow-x: hidden !important;
     margin: 0 !important;
+  }
+
+  .product__thumb {
+    height: 340px;
   }
 
   .testimonial__nav-thumb img {

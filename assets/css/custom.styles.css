@@ -118,6 +118,35 @@
     width: 100vw;
 }
 
+.downlaod-app {
+    background-image: url('../img/yard7.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 80%;
+    gap: 20%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.download-area {
+    width: 30%;
+}
+
+.download-area div span {
+    text-transform: none;
+    color: #000000;
+}
+
+.client-name {
+    font-size: 200%;
+    font-weight: 900;
+}
+
 #contact-message {
     text-align: center;
     padding: 20px;
@@ -127,5 +156,23 @@
     .mob-none {
         display: none;
     }
+
+    .downlaod-app {
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        width: 100%;
+        gap: 20%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .download-area {
+        width: 80%;
+    }
+    
   }
   
