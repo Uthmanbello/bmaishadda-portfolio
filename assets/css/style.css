@@ -4219,6 +4219,13 @@ p.checkout-coupon input[type=text] {
 /*----------------------------------------*/
 /*  06. CLIENT CSS START
 /*----------------------------------------*/
+.client__thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
 .client__thumb img {
   width: 10%;
 }
