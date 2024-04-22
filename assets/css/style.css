@@ -4908,8 +4908,8 @@ p.checkout-coupon input[type=text] {
   transform: scale(0.7);
   display: inline-block;
   text-align: center;
-  width: 10vw;
-  height: 10vw;
+  width: 7vw;
+  height: 7vw;
 }
 .testimonial__nav-thumb.slick-center img {
   -webkit-transform: scale(1);
