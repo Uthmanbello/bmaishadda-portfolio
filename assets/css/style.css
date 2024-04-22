@@ -1998,7 +1998,6 @@ p {
 }
 
 .single-slider {
-  background-image: url('../img/yard19.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2919,6 +2918,7 @@ p {
   position: relative;
   margin-bottom: 15px;
   overflow: hidden;
+  height: 200px;
 }
 .product__thumb-2 {
   position: absolute;
@@ -5958,6 +5958,10 @@ p.checkout-coupon input[type=text] {
   body {
     overflow-x: hidden !important;
     margin: 0 !important;
+  }
+
+  .product__thumb {
+    height: 340px;
   }
 
   .testimonial__nav-thumb img {
