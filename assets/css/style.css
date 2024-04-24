@@ -1501,6 +1501,9 @@ p {
 .mobile-menu-btn a {
   font-size: 18px;
   color: #323232;
+  position: fixed;
+  top: 30px;
+  right: 20px;
 }
 
 .body-overlay {
